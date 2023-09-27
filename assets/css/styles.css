@@ -1,4 +1,38 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
   }
+  
+
+  .imagen {
+    background-image:url(/assets/img/home.jpg);
+    background-size: cover;
+    height: 1200px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagen p {
+    color: white;
+    font-size: 80px;
+  }
+  
+  /** INICIO FOOTER **/
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .facebook {
+    margin-left: 60px;
+  }
+  .instagram {
+    margin-left: 60px;
+  }
+  .behance {
+    margin-left: 60px;
+  }
+ /** FIN FOOTER **/
