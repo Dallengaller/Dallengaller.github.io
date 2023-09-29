@@ -14,16 +14,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } 
   .imagen p {
     color: white;
     font-size: 80px;
   }
   
   /** INICIO FOOTER **/
-  footer {
+  .caja_footer {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
   }
 
   .facebook {
@@ -36,3 +37,39 @@
     margin-left: 60px;
   }
  /** FIN FOOTER **/
+
+ /** INICIO CV **/
+ 
+ .caja_bio {
+  width: 1000px;
+  height: auto;
+  margin: 100px auto 30px auto;
+ }
+
+ .bio h2, p{
+  font-size: 25px;
+  text-align: justify;
+ }
+
+ .formacion, .experiencia {
+  width: 500px;
+  margin: 50px auto 50px auto;
+ }
+
+ ul li {
+  list-style: none;
+ }
+ /** FIN CV **/
+
+ /** INICIO EXPO **/
+.expo {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.expo ul li {
+  margin-top: 50px;
+  list-style: none;
+}
+ /** FIN EXPO **/
