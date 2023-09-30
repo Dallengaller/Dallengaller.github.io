@@ -4,11 +4,13 @@
     box-sizing: border-box;
   }
   
-
+  .caja_img_footer {
+    height: 897px;
+  }
   .imagen {
-    background-image:url(/assets/img/home.jpg);
+    background-image:url(/assets/img/home2.jpg);
     background-size: cover;
-    height: 1200px;
+    height: 850px;
     margin-left: 80px;
     margin-right: 80px;
     display: flex;
@@ -63,9 +65,10 @@
 
  /** INICIO EXPO **/
 .expo {
+  height: 620px;
   text-align: center;
   font-size: 25px;
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 50px;
 }
 .expo ul li {
@@ -81,3 +84,9 @@
   margin: 50px 0;
 }
  /** FIN PORTFOLIO **/
+
+  /** INICIO CONTACTO **/
+.caja_formulario {
+  height: 802px;
+}
+   /** FIN CONTACTO **/
