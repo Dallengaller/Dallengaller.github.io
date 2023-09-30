@@ -43,7 +43,7 @@
  .caja_bio {
   width: 1000px;
   height: auto;
-  margin: 100px auto 30px auto;
+  margin: 50px auto 30px auto;
  }
 
  .bio h2, p{
@@ -65,7 +65,7 @@
 .expo {
   text-align: center;
   font-size: 25px;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
 }
 .expo ul li {
@@ -73,3 +73,11 @@
   list-style: none;
 }
  /** FIN EXPO **/
+
+ /** INICIO PORTFOLIO **/
+.titulo_pintura h1 {
+  color: blue;
+  text-align: center;
+  margin: 50px 0;
+}
+ /** FIN PORTFOLIO **/
