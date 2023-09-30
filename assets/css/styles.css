@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
   }
-  /** Valores Fijos **/
+  /** INICIO HOME **/
   .daniel {
     font-family: 'Libre Baskerville', serif;
     font-size: 50px;
@@ -20,6 +20,7 @@
     justify-content: center;
     align-items: center;
  }
+ /** FIN HOME **/
   
   /** INICIO FOOTER **/
   .caja_footer {
@@ -178,3 +179,4 @@
   padding-top: 10px;
   }
 }
+/** FIN Responsive **/
