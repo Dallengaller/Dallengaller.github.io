@@ -106,11 +106,15 @@
 /** FIN BOTONES NAVBAR **/ 
 
 /** INICIO Responsive **/
+
+/** index **/
 @media screen and (max-width: 400px) {
   .daniel, .artista {
     font-size: 20px;
   }
 }
+
+/** footer **/
 @media screen and (max-width: 400px) {
   .caja_footer {
     display: inline;
