@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
   /** Valores Fijos **/
+  .daniel {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+  }
   .caja_img_footer {
     height: 897px;
   }
@@ -16,23 +20,6 @@
     justify-content: center;
     align-items: center;
  }
-  /* .imagen {
-    background-image:url(/assets/img/home2.jpg);
-    background-size: cover;
-    max-height: 850px;
-    height: 850px;
-    margin-left: 80px;
-    margin-right: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }  */
-  
-  /* .imagen p {
-    color: white;
-    font-size: 80px;
-  } */
-  /** Valores Fijos **/
   
   /** INICIO FOOTER **/
   .caja_footer {
@@ -115,4 +102,79 @@
 .button_link:hover {
   color: #2FFF00;
 }
-/** FIN BOTONES NAVBAR **/  
+/** FIN BOTONES NAVBAR **/ 
+
+/** INICIO Responsive **/
+@media screen and (max-width: 400px) {
+  .daniel, .artista {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .caja_footer {
+    display: inline;
+    font-size: 20px;
+    margin-top: 20px;
+
+  }
+  .caja_footer h6 {
+    font-size: 10px;
+    text-align: center;
+  }
+  .iconos {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+}
+
+/** exposiciones **/
+@media screen and (max-width: 400px) {
+  .expo {
+    height: 400px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .facebook {
+    margin: 10px 0;
+  }
+  .instagram {
+    margin: 10px 0;
+  }
+  .behance {
+    margin: 10px 0;
+  }
+  
+}
+/** CV **/
+@media screen and (max-width: 400px) {
+  .caja_bio {
+    width: 300px;
+    height: auto;
+    margin: 50px auto 30px auto;
+  }
+
+ .bio h2, p{
+  font-size: 18px;
+  text-align: justify;
+  }
+
+  .formacion, .experiencia {
+    width: 300px;
+   }
+}
+ 
+ /** Contacto **/
+
+ @media screen and (max-width: 400px) {
+ .caja_formulario {
+  height: 550px;
+  padding-top: 10px;
+  }
+}
