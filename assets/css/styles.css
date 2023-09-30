@@ -3,24 +3,36 @@
     margin: 0;
     box-sizing: border-box;
   }
-  
+  /** Valores Fijos **/
   .caja_img_footer {
     height: 897px;
   }
-  .imagen {
+ .card-img {
+  max-width: 1221px;
+  filter: blur(2px);
+ }
+ .card-img-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+  /* .imagen {
     background-image:url(/assets/img/home2.jpg);
     background-size: cover;
+    max-height: 850px;
     height: 850px;
     margin-left: 80px;
     margin-right: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-  } 
-  .imagen p {
+  }  */
+  
+  /* .imagen p {
     color: white;
     font-size: 80px;
-  }
+  } */
+  /** Valores Fijos **/
   
   /** INICIO FOOTER **/
   .caja_footer {
@@ -73,13 +85,15 @@
 }
 .expo ul li {
   margin-top: 50px;
-  list-style: none;
+}
+
+.expo ul {
+  padding: 0;
 }
  /** FIN EXPO **/
 
  /** INICIO PORTFOLIO **/
 .titulo_pintura h1 {
-  color: blue;
   text-align: center;
   margin: 50px 0;
 }
@@ -88,5 +102,17 @@
   /** INICIO CONTACTO **/
 .caja_formulario {
   height: 802px;
+  background-color: #c9c9c9;
+  padding-top: 100px;
 }
    /** FIN CONTACTO **/
+
+/** INICIO BOTONES NAVBAR **/  
+.container-fluid ul li a {
+  color: white;
+}
+
+.button_link:hover {
+  color: #2FFF00;
+}
+/** FIN BOTONES NAVBAR **/  
