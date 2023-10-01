@@ -2,7 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-align: justify;
+    text-justify: inter-word;
   }
+
+a{
+  color: white !important;
+}
   /** INICIO HOME **/
   .daniel {
     font-family: 'Libre Baskerville', serif;
@@ -95,7 +101,10 @@
 }
    /** FIN CONTACTO **/
 
-/** INICIO BOTONES NAVBAR **/  
+/** INICIO BOTONES NAVBAR **/ 
+
+
+
 .container-fluid ul li a {
   color: white;
 }
